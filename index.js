@@ -1,9 +1,6 @@
 #!/usr/bin/node
 require('console.table');
-projectGenerator = require('./projectgenerator')
-test = require('./test')
-// import 'projectgenerator.js';
-
+projectGenerator = require('./projectgenerator');
 var arguments = process.argv.slice(2);
 
 if(arguments[0] == 'new'){

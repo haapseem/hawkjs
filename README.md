@@ -1,4 +1,6 @@
 # hawkjs
+[![Build Status](https://travis-ci.org/haapseem/hawkjs.svg?branch=master)](https://travis-ci.org/haapseem/hawkjs)
+
 
 #### install hawkjs
 ```bash
