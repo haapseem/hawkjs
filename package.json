@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "hawkjs": "./index.js"
+  },
   "author": "sleepingduck",
   "license": "ISC",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^7.0.0"
   }
 }
