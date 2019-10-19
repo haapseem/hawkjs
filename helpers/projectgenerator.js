@@ -6,7 +6,7 @@ const fs = require('fs');
 // current directory
 const CURR_DIR = process.cwd();
 // templates in framework
-const CHOICES = fs.readdirSync(`${__dirname}/templates`);
+const CHOICES = fs.readdirSync(`${__dirname}/templates/projects`);
 // questions to ask
 const QUESTIONS = [
   {
@@ -55,7 +55,7 @@ exports.projectgenerator = () => {
   .then(answers => {
     const projectChoice = answers['project-choice'];
     const projectName = answers['project-name'];
-    const templatePath = `${__dirname}/templates/${projectChoice}`;
+    const templatePath = `${__dirname}/templates/projects/${projectChoice}`;
 
     fs.mkdirSync(`${CURR_DIR}/${projectName}`);
 

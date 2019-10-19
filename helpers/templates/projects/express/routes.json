@@ -1,0 +1,7 @@
+[
+  {
+    "route": "/",
+    "data": "hello world",
+    "type": "text"
+  }
+]
