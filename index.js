@@ -1,19 +1,27 @@
 #!/usr/bin/node
 require('console.table');
-var help = require('./help.json');
-var projectGenerator = require('./helpers/projectgenerator');
-var pageGen = require('./helpers/pagegenerator');
-var arguments = process.argv.slice(2);
+var help = require('./help.json').help;
+var generator = require('./helpers/generator').Generator();
 
-if(arguments[0] == 'new'){
-  projectGenerator.projectgenerator();
-} else if(arguments[0] == "generate"){
-  pageGen.generate(arguments[1]);
-}
-else if(arguments[0] == '?' || arguments[0] == 'help') {
-  // print help
-  console.table(help.help);
+var arguments = process.argv.slice(2);
+var command = arguments[0];
+
+if(command == 'new'){
+  generator.new_project();
+} else if(command == 'generate'){
+  generator.copy_default_page(arguments[1]);
 } else {
-  // print help
-  console.table(help.help);
+  console.table(help);
 }
+// if(arguments[0] == 'new'){
+//   projectGenerator.projectgenerator();
+// } else if(arguments[0] == "generate"){
+//   pageGen.generate(arguments[1]);
+// }
+// else if(arguments[0] == '?' || arguments[0] == 'help') {
+//   // print help
+//   console.table(help.help);
+// } else {
+//   // print help
+//   console.table(help.help);
+// }
