@@ -10,7 +10,7 @@ But why should I do that? *- Simple! To learn something new.*
 - nodejs
 - npm
 
-#### install hawkjs
+#### Install hawkjs
 - Clone the repository
 - run simply
 
@@ -18,11 +18,16 @@ But why should I do that? *- Simple! To learn something new.*
 $ npm i -g
 ```
 
-#### create new project
+#### Create new project
 ```bash
 $ hawkjs new
+$ cd <project_folder>
+$ npm i
 ```
 
-### TODO
+#### TODO
 - Framework
 - Sample templates
+
+##### keywords
+nodejs, framework, javascript
