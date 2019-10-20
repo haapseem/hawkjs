@@ -4,8 +4,7 @@
   "description": "framework test",
   "main": "index.js",
   "scripts": {
-    "ttest": "jest",
-    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "test": "jest"
   },
   "author": "sleepingduck",
   "license": "ISC",
