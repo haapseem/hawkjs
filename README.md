@@ -1,5 +1,7 @@
 # Hawk.JS
 [![Build Status](https://travis-ci.org/haapseem/hawkjs.svg?branch=master)](https://travis-ci.org/haapseem/hawkjs)
+[![Coverage Status](https://coveralls.io/repos/github/haapseem/hawkjs/badge.svg?branch=master)](https://coveralls.io/github/haapseem/hawkjs?branch=master)
+
 
 Just another framework for nodejs developement.
 Trying to keep it light and simple.
