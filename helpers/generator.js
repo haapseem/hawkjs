@@ -116,5 +116,6 @@ exports.Generator = () => {
   return {
     new_project: new_project,
     copy_default_page: copy_default_page,
+    copy_template: copy_template,
   }
 }

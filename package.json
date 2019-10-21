@@ -15,7 +15,8 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.7",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "mock-fs": "^4.10.2"
   },
   "bin": {
     "hawkjs": "./index.js"

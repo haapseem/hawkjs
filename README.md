@@ -1,12 +1,21 @@
-# Hawk.JS
-[![Build Status](https://travis-ci.org/haapseem/hawkjs.svg?branch=master)](https://travis-ci.org/haapseem/hawkjs)
-
-
+# Hawk.JS [![Build Status](https://travis-ci.org/haapseem/hawkjs.svg?branch=master)](https://travis-ci.org/haapseem/hawkjs)
 
 Just another framework for nodejs developement.
 Trying to keep it light and simple.
 
 But why should I do that? *- Simple! To learn something new.*
+
+#### Usage
+- generating new project and installing dependencies
+```bash
+$ hawkjs new
+$ cd <project>
+$ npm i
+```
+- generating new page
+```bash
+$ hawkjs generate <name_for_page>
+```
 
 #### Requirements
 - nodejs
@@ -14,17 +23,12 @@ But why should I do that? *- Simple! To learn something new.*
 
 #### Install hawkjs
 - Clone the repository
-- run simply
-
+```bash
+$ git clone <repository>
+```
+- run npm install globally
 ```bash
 $ npm i -g
-```
-
-#### Create new project
-```bash
-$ hawkjs new
-$ cd <project_folder>
-$ npm i
 ```
 
 #### TODO
